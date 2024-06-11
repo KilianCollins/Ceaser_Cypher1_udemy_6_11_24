@@ -1,45 +1,42 @@
-import math
-import random
-import numpy
 
 
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower().strip(" ")
 shift = int(input("Type the shift number:\n"))
 
+direction2 = input("Type 'decode' to decrypt:\n")
+text2 = input("Type your message:\n").lower().strip(" ")
+shift2 = int(input("Type the shift number:\n"))
+
+
+
+
+
 #TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
 
-def encrypt(text, shift):
-    text_list = []
-    index_list = []
-    num = 0
-    # convertes str into iterable lista
-    for let in text:
-        text_list += let
-    # print(text_list)
+def encrypt(plain_text, shift_amount):
+    # convertes str into iterable list
+    cypher_output = ""
+    for letter in plain_text:
+        position =  alphabet.index(letter)
+        new_position = position + shift_amount
+        new_letter = alphabet[new_position]
+        cypher_output += new_letter
+    print(cypher_output)
+# encrypt(plain_text= text,shift_amount=shift)
 
-    for char in alphabet:
-        i = 0
-        for char_pos in range(0, len(alphabet)-1):
-            if char in text_list and len(text_list) <=i:
-                i +=1
-                index_list += char_pos
-                print(index_list)
-
-
-    for pos in range(0, len(text_list) -1):
-        text_list[pos] = alphabet[index_list[pos]]
-
-    print(text_list)
-
-
-# for letter in alphabet:
-#     if letter in text_list:
-#         alphabet[]
-
-encrypt(text,shift)
+def decrypt(plain_text, shift_amount):
+    cypher_output = ""
+    for letter in plain_text:
+        position = alphabet.index(letter)
+        new_position = position - shift_amount
+        new_letter = alphabet[new_position]
+        cypher_output += new_letter
+    print(cypher_output)
+decrypt(plain_text=text2,shift_amount=shift2)
 
 
 
