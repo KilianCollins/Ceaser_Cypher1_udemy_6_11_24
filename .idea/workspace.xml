@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c77374-fe52-4804-b5bf-ffb64d0a2088" name="Changes" comment="test push">
-      <change afterPath="$PROJECT_DIR$/Used_DIr/Module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Used_DIr/example.py" afterDir="false" />
+    <list default="true" id="e3c77374-fe52-4804-b5bf-ffb64d0a2088" name="Changes" comment="learned some new stuff like how to connecet a function to the internet. cool!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Used_DIr/Encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/Used_DIr/Encryption.py" afterDir="false" />
     </list>
@@ -30,25 +28,26 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2hjXWAe8xFyTMRFKWncdeiWu9bb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Encryption.executor": "Run",
-    "Python.Module.executor": "Run",
-    "Python.example.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "6__11__24__b",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Encryption.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;6__11__24__b&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Ceaser_Cypher1_udemy_6_11_24" />
@@ -110,11 +109,20 @@
       <option name="project" value="LOCAL" />
       <updated>1718109038095</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="learned some new stuff like how to connecet a function to the internet. cool!">
+      <option name="closed" value="true" />
+      <created>1718114498472</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718114498472</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test push" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push" />
+    <MESSAGE value="learned some new stuff like how to connecet a function to the internet. cool!" />
+    <option name="LAST_COMMIT_MESSAGE" value="learned some new stuff like how to connecet a function to the internet. cool!" />
   </component>
 </project>

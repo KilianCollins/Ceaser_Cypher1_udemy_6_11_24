@@ -3,17 +3,11 @@
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+
+
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower().strip(" ")
-shift = int(input("Type the shift number:\n"))
-
-direction2 = input("Type 'decode' to decrypt:\n")
-text2 = input("Type your message:\n").lower().strip(" ")
-shift2 = int(input("Type the shift number:\n"))
-
-
-
-
+shift = int(input("Type the shift number, must be less than ten:\n"))
 
 #TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
 
@@ -36,12 +30,15 @@ def decrypt(plain_text, shift_amount):
         new_letter = alphabet[new_position]
         cypher_output += new_letter
     print(cypher_output)
-decrypt(plain_text=text2,shift_amount=shift2)
+# decrypt(plain_text=text,shift_amount=shift)
 
+if direction == "encode":
+    encrypt(shift_amount=shift,plain_text=text)
 
+elif direction == "decode":
+    decrypt(shift_amount=shift,plain_text=text)
 
-
-    #TODO-2: Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.
+#TODO-2: Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.
     #e.g.
     #plain_text = "hello"
     #shift = 5
