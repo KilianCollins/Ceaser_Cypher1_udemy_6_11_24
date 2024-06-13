@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c77374-fe52-4804-b5bf-ffb64d0a2088" name="Changes" comment="learned some new stuff like how to connecet a function to the internet. cool!">
+    <list default="true" id="e3c77374-fe52-4804-b5bf-ffb64d0a2088" name="Changes" comment="finished this portion of the project. 6_13_24">
+      <change afterPath="$PROJECT_DIR$/Used_DIr/Cyhper_world/Cypher_Art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Used_DIr/Cyhper_world/Cypher_body.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Used_DIr/Improved_Cypher_Module.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Used_DIr/Encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/Used_DIr/Encryption.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="6_11_24" />
+        <entry key="$PROJECT_DIR$" value="6_11_24_b" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,17 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Encryption.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;6__11__24__b&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Cypher_Art.executor": "Run",
+    "Python.Cypher_body.executor": "Run",
+    "Python.Encryption.executor": "Run",
+    "Python.Improved_Cypher_Module.executor": "Run",
+    "Python.Module.executor": "Run",
+    "Python.example.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "6__13__24",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Ceaser_Cypher1_udemy_6_11_24" />
@@ -117,12 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718114498472</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished this portion of the project. 6_13_24">
+      <option name="closed" value="true" />
+      <created>1718297132999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718297132999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test push" />
     <MESSAGE value="learned some new stuff like how to connecet a function to the internet. cool!" />
-    <option name="LAST_COMMIT_MESSAGE" value="learned some new stuff like how to connecet a function to the internet. cool!" />
+    <MESSAGE value="finished this portion of the project. 6_13_24" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished this portion of the project. 6_13_24" />
   </component>
 </project>
